@@ -1,0 +1,256 @@
+#video {
+    width: 100%;
+    height:100%;
+    border: 0px;
+}
+
+#coffee-cup {
+    position:absolute;
+    right: -50px;
+    top: -10px;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Exo";
+}
+
+@media (min-width: 768px) {
+    .support-col,.subscribe-col {
+        padding-bottom: 1.7em;
+    }
+
+    .about-col {
+        padding-bottom: 0.3em;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        height: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .header {
+        height: 815px;
+    }
+
+    .section-2 {
+        height: 725px;
+    }
+
+    .section-3 {
+        height: 675px;
+    }
+
+    .description {
+        height: 552px;
+    }
+
+    .clients {
+        height: 645px;
+    }
+
+    .browser {
+        height: 755px;
+    }
+
+    .try-now {
+        height: 460px;
+    }
+
+    .footer {
+        height: 327px;
+    }
+}
+
+.section-content {
+    height: 100%;
+}
+
+.section-row {
+    height: 100%;
+}
+
+.section-2 {
+    background: url(media/new-design-bg.PNG) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section-3 {
+    background: url(media/new-features-bg.PNG) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.description {
+    background: url(media/description-bg.PNG) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.clients {
+    background: url(media/clients-bg.PNG) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.browser {
+    background: url(media/browser\(with_mac-window\)-bg.PNG) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.try-now {
+    background: url(media/try-now-bg.PNG) no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.footer {
+    background: url(media/footer-bg.PNG) no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    line-height: 50px;
+    color: #ff6d6d;
+    display: block;
+}
+
+.title {
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: #282828;
+}
+
+.description-text {
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #282828;
+}
+
+.col-title {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #282828;
+}
+
+.coffee-cup {
+    height: 98px;
+    width: 165px;
+    overflow:hidden;
+    position: relative;
+}
+
+.features-row {
+    height: 37%;
+}
+
+.clients_cols {
+    height: 75%;
+}
+
+.client-title {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.sm-subtitle {
+    line-height: 50px;
+}
+
+.red {
+    color: #ff6d6d;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.grey-text {
+    color: #8B8C8F;
+}
+
+.arrow {
+    height: 36px;
+    width: 21px;
+    object-fit: cover;
+    object-position: -20% 0;
+}
+
+.inputs {
+    margin-left:5.5em;
+}
+
+.inputs-height {
+    height: 3em;
+}
+
+.btn-cherry {
+    width: 258px;
+    border-radius: 3px;
+    filter: drop-shadow(0px 3px 1.5px rgba(14,15,15,0.25));
+    background-color: #ff6d6d;
+    border: 1px solid #ff6d6d;
+}
+
+.terms-services {
+    letter-spacing: 1px;
+    line-height: 75px;
+    color: #ABADAF;
+    font-weight: 400;
+}
+
+.btn-square {
+    width: 52px;
+    height: 49px;
+    border-radius: 3px;
+    filter: drop-shadow(0px 3px 1.5px rgba(14,15,15,0.25));
+    background-color: #ff6d6d;
+    border: 1px solid #ff6d6d;
+}
+
+.social-links img {
+    margin-top: 1em;
+    margin-left: 2em;
+}
